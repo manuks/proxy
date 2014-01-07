@@ -14,9 +14,9 @@ It will be like git@heroku.com:your-application-name.git
 
 Then follow this steps
 
-# git clone git@github.com:manuks/proxy.git
-# git remote add heroku git@heroku.com:your-application-name.git
-# heroku config:set REDIRECTHOST=yourdomain.com
+   git clone git@github.com:manuks/proxy.git
+   git remote add heroku git@heroku.com:your-application-name.git
+   heroku config:set REDIRECTHOST=yourdomain.com
 
 This will create a nodejs application in heroku which will proxy yourdomain from an ssl domain.
 
