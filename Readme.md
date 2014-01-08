@@ -22,6 +22,7 @@ Then follow this steps
 <pre>
    git clone git@github.com:manuks/proxy.git
    git remote add heroku git@heroku.com:your-application-name.git
+   git push heroku master
    heroku config:set REDIRECTHOST=yourdomain.com
 </pre>
 
