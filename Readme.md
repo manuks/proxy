@@ -1,6 +1,6 @@
 While developing a facebook page tab we have to specify ssl url of the app. 
 
-Suppose your application is in say
+Suppose your application is
 <pre>
 http://yourdomain.com/fb/app/
 </pre>
