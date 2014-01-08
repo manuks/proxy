@@ -10,7 +10,10 @@ For a sandbox application buying an ssl certificate is not that prcactical.
 This proxy can be used in that situation.
 
 Create an application in heroku and find its git url from the settings page. 
-It will be like git@heroku.com:your-application-name.git
+It will be like 
+<pre>
+    git@heroku.com:your-application-name.git
+</pre>
 
 Then follow this steps
 
@@ -23,4 +26,6 @@ Then follow this steps
 This will create a nodejs application in heroku which will proxy yourdomain from an ssl domain.
 
 You can give the following url in facebook app settings.
-https://your-application-name.herokuapp.com/fb/app/
+<pre>
+https://<font color='red'>your-application-name<font color='red'>.herokuapp.com/fb/app/
+</pre>
