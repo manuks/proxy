@@ -27,5 +27,5 @@ This will create a nodejs application in heroku which will proxy yourdomain from
 
 You can give the following url in facebook app settings.
 <pre>
-https://<font color='red'>your-application-name<font color='red'>.herokuapp.com/fb/app/
+https://<font color='red'>your-application-name</font>.herokuapp.com/fb/app/
 </pre>
