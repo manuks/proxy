@@ -1,10 +1,12 @@
 While developing a facebook page tab we have to specify ssl url of the app. 
 
 Suppose your application is in say
+<pre>
 http://yourdomain.com/fb/app/
-
-If you give https://yourdomain.com/fb/app/ it will not work in facebook if you do not have a valid ssl certificate.
-
+</pre>
+<pre>
+https://yourdomain.com/fb/app/ will not work in facebook if you do not have a valid ssl certificate.
+</pre>
 For a sandbox application buying an ssl certificate is not that prcactical.
 
 This proxy can be used in that situation.
