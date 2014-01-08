@@ -3,7 +3,7 @@ While developing a facebook page tab we have to specify ssl url of the app.
 Suppose your application is in say
 http://yourdomain.com/fb/app/
 
-If you give https://yourdomain.com/fb/app/ it will not work in facebook.
+If you give https://yourdomain.com/fb/app/ it will not work in facebook if you do not have a valid ssl certificate.
 
 For a sandbox application buying an ssl certificate is not that prcactical.
 
