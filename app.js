@@ -3,7 +3,7 @@ var express = require("express"),
     app = express();
     
 app.use(function (req, res, next) {
-    getfrom = 'http://' + process.env.REDIRECTHOST + req.path;
+    getfrom = 'http://' + process.env.REDIRECTHOST + req.originalUrl;
     request(getfrom).pipe(res);
 });
     
