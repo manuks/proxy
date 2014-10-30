@@ -4,7 +4,7 @@ var express = require("express"),
     
 app.use(function (req, res, next) {
     getfrom = 'http://' + process.env.REDIRECTHOST + req.originalUrl;
-    request(getfrom).pipe(res);
+    req.pipe(request(getfrom)).pipe(res);
 });
     
     
