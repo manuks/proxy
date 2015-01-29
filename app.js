@@ -3,8 +3,9 @@ var express = require("express"),
     app = express();
     
 app.use(function (req, res, next) {
-    getfrom = 'http://' + process.env.REDIRECTHOST + req.originalUrl;
-    req.pipe(request(getfrom)).pipe(res);
+    var getfrom = 'http://' + process.env.REDIRECTHOST + req.originalUrl;
+    var followRedirectOption = !process.env.DO_NOT_REDIRECT_INTERNALLY;
+    req.pipe(request({uri:getfrom,followRedirect:followRedirectOption})).pipe(res);
 });
     
     
